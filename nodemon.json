@@ -1,0 +1,4 @@
+{
+  "watch": ["jade.js", "sass/", "admin/", "routes/", "src/views/"],
+  "ext": "js, scss, json, pug"
+}

@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  position: sticky;
+  top: 0;
+
+
+  span {
+    font-size: 3.2rem;
+  }
+}
+
+.link-about {
+  color: white;
+  font-size: 5rem;
+}
+
+.link-home {
+  color: white;
+  font-size: 5rem;
+}

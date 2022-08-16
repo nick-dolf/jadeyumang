@@ -1,0 +1,11 @@
+mixin style-item(id, value)
+  li.list-group-item.d-flex.align-items-center.justify-content-between
+    h4.col-4= id
+    input.col-8(type="color" name=id id=id value= value)
+
+
+h2 Style
+
+ul.list-group-flush
+  +style-item('topColor', topColor)
+  +style-item('bottomColor', bottomColor)
