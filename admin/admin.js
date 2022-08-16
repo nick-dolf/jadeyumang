@@ -36,6 +36,10 @@ router.use((req, res, next) => {
   }
 })
 
+router.get('/', (req, res) => {
+  res.redirect('/admin/dashboard')
+})
+
 router.use('/dashboard', require('./routes/dashboard'))
 router.use('/pages', require('./routes/pages'))
 

@@ -119,6 +119,11 @@ function renderPage(page) {
     destination = siteDir + page.path + "/index.html"
   }
 
+  const count = page.path.match('/')
+
+  console.log(page.path)
+  console.log(count)
+
   app.render("site/" + page.template, page, (err, html) => {
     if (err) {
       console.error(err.message)
